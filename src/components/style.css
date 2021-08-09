@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "mainFont";
+    src: url('font/Pony.ttf');
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    font-family: mainFont;
+    background-color: red;
+    background-position: center;
+    background-size: contain;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+
+.player__image{
+    width:150px;
+    height: 150px;
+}
+
+.choosen{
+    border: 5px solid #45D994;
+    width:100px;
+    height:100px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choosen img{
+    width:50px;
+    height:50px;
+}
+
+.choosen .choosen__computer{
+    transform: rotate(180deg);
+}
+
+.dice{
+    width:20px;
+    height:20px
+}
+
+.gameDetails{
+    color: #45D994;
+}
+
+.gameDetails span{
+    color: yellow;
+}
