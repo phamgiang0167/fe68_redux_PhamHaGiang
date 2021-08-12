@@ -26,9 +26,7 @@ class Main extends Component {
                         <Computer />
                     </div>
                 </div>
-                <div className="demo">
-                    <button type="button" class="btn btn-warning">button</button>
-                </div>
+      
             </div>
         )
     }
